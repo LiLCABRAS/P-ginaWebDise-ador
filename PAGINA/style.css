@@ -1,0 +1,78 @@
+h1 {
+    font-family: 'Adventure Normal', arial;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px red;
+    color: white;
+}
+body{
+    background-color: black;
+}
+@font-face {
+    font-family: 'Adventure Normal';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Adventure Normal'), local('Adventure-Normal'),
+        url(adventure-normal_39cf25fac146d7e96f0c65a897a3c401.woff) format('woff'),
+        url(adventure-normal_39cf25fac146d7e96f0c65a897a3c401.ttf) format('truetype');
+}
+h1{
+    text-align: center;
+}
+
+
+    img:first-of-type {
+        width: 18%;
+        margin: 0%;
+        width: 100px;
+        top: 16%;
+        left: 47.5%;
+        height: 100px;
+        border-radius: 15px 15% 15% 15%;
+        position: relative;
+        bottom: 20px;
+      
+    }
+    
+    @font-face {
+        font-family: 'Billabong';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Billabong'), local('Billabong'),
+          
+            url(FontsFree-Net-Billabong.ttf) format('truetype');
+    }
+    div{
+        font-family: 'Billabong', arial;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+a{
+    font-family: 'Billabong', arial;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;  
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-shadow: 4px 4px 4px yellow;
+    color: white; 
+    text-align: justify;
+}
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-shadow: 4px 4px 4px yellow;
+    color: white; 
+    text-align: justify;   
+}
+button{
+    font-family: 'Adventure Normal', arial;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px red;
+    color: white;
+    background-color:black;
+    text-decoration:  none;
+}
